@@ -3,7 +3,6 @@
     <div class="logo">
       <img src="assets/images/logo.svg" width="100%" height="100%">
     </div>
-    <play-list></play-list>
   </div>
 </template>
 
@@ -30,6 +29,9 @@ export default {
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
     background-color: rgba(255,222,144,1);
   }
 
