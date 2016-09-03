@@ -3,16 +3,18 @@
     <div class="logo">
       <img src="assets/images/logo.svg" width="100%" height="100%">
     </div>
+    <player></player>
   </div>
 </template>
 
 <script>
 import store from './store/store';
 import PlayList from 'components/PlayList.vue';
+import Player from 'components/Player.vue';
 
 export default {
   components: {
-    PlayList,
+    PlayList, Player,
   },
   store,
 };
