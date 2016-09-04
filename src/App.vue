@@ -3,6 +3,7 @@
     <div class="logo">
       <img src="assets/images/logo.svg" width="100%" height="100%">
     </div>
+    <!-- <play-list></play-list> -->
     <player></player>
   </div>
 </template>
@@ -45,7 +46,7 @@ export default {
     position: relative;
     border-radius: 4px;
     background-color: rgba(255,255,255,1);
-    box-shadow: 5px 40px 80px -30px rgba(219, 149, 68, 0.6);
+    box-shadow: 5px 40px 70px -30px rgba(219, 149, 68, 0.8);
     font-family: Source Sans Pro, Helvetica, sans-serif;
     text-align: center;
   }
