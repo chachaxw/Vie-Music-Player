@@ -5,17 +5,19 @@
     </div>
     <!-- <play-list></play-list> -->
     <player></player>
+    <music-list></music-list>
   </div>
 </template>
 
 <script>
 import store from './store/store';
-import PlayList from 'components/PlayList.vue';
+// import PlayList from 'components/PlayList.vue';
+import MusicList from 'components/MusicList.vue';
 import Player from 'components/Player.vue';
 
 export default {
   components: {
-    PlayList, Player,
+    MusicList, Player,
   },
   store,
 };
@@ -42,7 +44,7 @@ export default {
     color: #2c3e50;
     max-width: 800px;
     width: 100%;
-    height: 500px;
+    height: 560px;
     position: relative;
     border-radius: 4px;
     background-color: rgba(255,255,255,1);

@@ -5,7 +5,7 @@
     </div>
     <div class="song-name" v-text="tracks"></div>
     <div class="album-info">专辑：{{album}}</div>
-    <div class="author">演唱者：{{author}}</div>
+    <div class="author">歌手：{{author}}</div>
     <div class="track-bar">
       <span class="start-time" v-text="start"></span>
       <div class="progress-line">
@@ -55,6 +55,9 @@ export default {
   }
   .author {
     color: rgb(83,88,97);
+  }
+  .song-name {
+    font-size: 14px;
   }
   .song-name,
   .album,
